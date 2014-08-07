@@ -4,4 +4,4 @@ MAINTAINER Arthur Ho
 
 # Build dependencies
 ADD app/ .
-CMD mono 'ls *.exe | head -1'
+CMD mono `ls *.exe | head -1`
